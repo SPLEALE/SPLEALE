@@ -1,0 +1,100 @@
+/* General styles for larger screens */
+body {
+    text-align: center;
+}
+
+.PRC {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.PRC H1 {
+    font-size: 70px;
+    color: blue;
+    font-weight: 600;
+}
+
+.PRC p {
+    font-size: 20px;
+}
+
+.head {
+    text-align: center;
+}
+
+.head h1 {
+    font-size: 50px;
+    color: blue;
+    font-weight: 600;
+}
+
+.head p {
+    padding-left: 10%; /* Reduce the left padding for smaller screens */
+    padding-right: 10%; /* Reduce the right padding for smaller screens */
+}
+
+.passer p {
+    font-weight: 600;
+}
+
+.passer h2 { 
+    font-size: 50px;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+    .PRC {
+        width: 80%; /* Adjust the width for smaller screens */
+    }
+
+    .PRC H1 {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    .PRC p {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+
+    .head h1 {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+
+    .head p {
+        padding-left: 5%; /* Further reduce left padding for smaller screens */
+        padding-right: 5%; /* Further reduce right padding for smaller screens */
+    }
+}
+
+.footer {
+    background-color: #333; /* Background color for the footer */
+    color: white; /* Text color */
+    padding: 20px; /* Padding for spacing inside the footer */
+    text-align: center; /* Center-align text content in the footer */
+}
+
+.footer img {
+    max-width: 100px; /* Adjust the maximum width of the logo as needed */
+    vertical-align: middle; /* Vertically align the logo with text */
+}
+
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    color: white; /* Text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center vertically */
+    padding: 10px 20px; /* Padding for spacing inside the navbar */
+}
+
+.navbar-logo-left {
+    max-width: 100px; /* Adjust the maximum width of the left logo as needed */
+}
+
+.navbar-logo-right {
+    max-width: 100px; /* Adjust the maximum width of the right logo as needed */
+}
+
+.website-name {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Bold text */
+}
